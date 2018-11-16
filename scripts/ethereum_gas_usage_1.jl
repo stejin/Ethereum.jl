@@ -49,4 +49,5 @@ function gas_usage(startCost, bytes)
     return c
 end
 
-# Usage: Obtain gas amount required by your contract for storing initial non-zero 32 bytes of data and then call gas_usage(initialGas, numberOfBytesToStore)
+# Usage: Obtain gas amount required by your contract for storing initial non-zero 32 bytes of data
+#        and then call gas_usage(initialGas, numberOfBytesToStore)
